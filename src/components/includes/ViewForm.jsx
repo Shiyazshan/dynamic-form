@@ -131,10 +131,18 @@ export default function ViewForm() {
                   onChange={(e) => handleChange(e)}
                   required
                 >
-                  <Option>A</Option>
-                  <Option>B</Option>
-                  <Option>C</Option>
-                  <Option>D</Option>
+                  <Option name="selected" value="A">
+                    A
+                  </Option>
+                  <Option name="selected" value="B">
+                    B
+                  </Option>
+                  <Option name="selected" value="C">
+                    C
+                  </Option>
+                  <Option name="selected" value="D">
+                    D
+                  </Option>
                 </Select>
               </CoverIn>
             )}
